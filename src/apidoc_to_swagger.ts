@@ -195,8 +195,9 @@ function generateProps(verb: Record<string, any>) {
 
     pathItemObject[type] = {
         tags: [verb.group],
-        summary: removeTags(verb.name),
-        description: removeTags(verb.title),
+        summary: removeTags(verb.title),
+        description: removeTags(verb.description),
+        operationId: removeTags(verb.name),
         requestBody: {content: {'application/json': body}},
         parameters,
         responses,
