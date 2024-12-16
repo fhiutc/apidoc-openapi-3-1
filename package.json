@@ -1,5 +1,5 @@
 {
-    "name": "apidoc-openapi-3-1",
+    "name": "apidoc-openapi-3-1-patch",
     "version": "1.0.4",
     "description": "Utility for generate documentation of API like project.",
     "keywords": [
@@ -24,12 +24,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Miguiz/apidoc-openapi-3-1.git"
+        "url": "https://github.com/fhiutc/apidoc-openapi-3-1.git"
     },
     "engines": {
         "node": ">=16.0.0"
     },
-    "author": "Miguiz",
+    "author": "fhiutc",
     "license": "ISC",
     "dependencies": {
         "apidoc-light": "^0.54.0",

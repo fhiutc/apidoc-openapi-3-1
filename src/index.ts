@@ -20,7 +20,7 @@ export function main(options: DocOptions & {output?: string}) {
         project
     );
 
-    createOutputFile(JSON.stringify(swagger), options);
+    createOutputFile(JSON.stringify(swagger, null, 2), options);
 
     return swagger;
 }
